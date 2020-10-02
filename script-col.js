@@ -1,7 +1,7 @@
 const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
 const background = document.body.style;
 const textColor = document.querySelector(".hexcode").style;
-const button = document.querySelector(".btn");
+const button = document.getElementById("btn");
 const text = document.querySelector("span");
 const letters = document.querySelector("letter");
 
